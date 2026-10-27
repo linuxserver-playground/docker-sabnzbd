@@ -44,7 +44,7 @@ RUN \
   pip install -U --no-cache-dir \
     pip \
     setuptools && \
-  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.24/ -r requirements.txt && \
+  pip install -U --no-cache-dir --find-links https://linuxserver-playground.github.io/wheelie/alpine-3.24/ -r requirements.txt && \
   echo "**** build sab translations ****" && \
   python3 tools/make_mo.py && \
   echo "**** install par2cmdline-turbo from source ****" && \
