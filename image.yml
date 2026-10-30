@@ -10,6 +10,8 @@ upstream:
   version:
     type: github_release
     repo: sabnzbd/sabnzbd
+    require_assets:
+      - asset: '^SABnzbd\-.*\-src\.tar\.gz$'
   notes:
     type: github_release
     repo: sabnzbd/sabnzbd
