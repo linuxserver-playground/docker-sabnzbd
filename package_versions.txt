@@ -69,7 +69,7 @@ libbz2                  1.0.8-r6          apk
 libcrypto3              3.5.9-r1          apk                              
 libcurl                 8.23.0-r0         apk                              
 libexpat                2.10.0-r0         apk                              
-libffi                  3.5.2-r1          apk                              
+libffi                  3.8.1-r0          apk                              
 libgcc                  14.2.0-r6         apk                              
 libgcc                  15.2.0-r5         apk                              
 libidn2                 2.3.8-r0          apk                              
@@ -108,7 +108,7 @@ platformdirs            4.12.4            python
 platformdirs            4.4.0             python                           
 procps-ng               4.0.6-r0          apk                              
 puremagic               2.2.0             python                           
-pyc                     3.14.10-r1        apk                              
+pyc                     3.14.10-r2        apk                              
 pycparser               3.12              python                           
 pygments                2.21.0            python                           
 pyjwt                   2.15.1            python                           
@@ -116,9 +116,10 @@ pyproject-hooks         1.3.3             python
 pysocks                 1.7.1             python                           
 python-dateutil         4.0.0             python                           
 python-multipart        0.0.33            python                           
-python3                 3.14.10-r1        apk                              
-python3-pyc             3.14.10-r1        apk                              
-python3-pycache-pyc0    3.14.10-r1        apk                              
+python3                 3.14.10-r2        apk                              
+python3-ndbm            3.14.10-r3        apk                              
+python3-pyc             3.14.10-r2        apk                              
+python3-pycache-pyc0    3.14.10-r2        apk                              
 pyyaml                  6.0.3             python                           
 rarfile                 4.5               python                           
 readline                8.3.3-r1          apk                              
